@@ -4,16 +4,23 @@ body {
     display: flex;
     flex-direction:  column;
     margin-bottom: 100px;
+    font-family: 'Dancing Script', cursive;
     
     
 }
 .header {
     font-weight: 900;
+    font-size: 48px;
     
     
 }
 .tifftea {
     margin-left: 275px;
+}
+.links li:hover {
+    color: rgb(2, 141, 2);
+    
+
 }
 nav {
     display: flex;
@@ -89,8 +96,7 @@ nav {
          justify-content: center;
          gap: 50px;        
          align-items: flex-start;
-         color: #1F2937;
-         
+         color: #1F2937;        
          
          
      }
@@ -105,7 +111,7 @@ nav {
          margin-left: 200px;
      }
      .photo {
-         border: 5px solid #3882F6;
+         border: 5px solid peru;
          border-radius: 30px;
      }
 
@@ -131,27 +137,33 @@ nav {
          gap: 20px;
          justify-content: center;
          align-items: center;
+         margin: 0;
+
+         
+
          
      }
 
      p {
-         border: 2px solid #E5E7EB;
          color: #1F2937;
          display: flex;
-         align-items: center;
-         width: 20%;
-         font-size: 18px;
-         padding: 15px;
+         flex-direction: row;      
+         align-items: flex-start;
+         font-weight: 700;       
+         font-size: 28px;
+         padding: 20px;      
          border-radius: 30px;
-              }
+                  
+        }
 
      .tea {
-         width: 254px;
-         height: 254px;
+        width: 254px;
+        height: 254px;
+        margin-top: 20px;
+        
+   
      }
-     .whitetea {
-         padding-bottom: 20px;
-     }
+     
 
      #container_three {
          display: flex;

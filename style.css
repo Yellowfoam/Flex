@@ -1,14 +1,19 @@
 body {
-    max-width: 100%;
+
     min-height: 100vh;
     display: flex;
     flex-direction:  column;
     margin-bottom: 100px;
     
+    
 }
 .header {
     font-weight: 900;
     
+    
+}
+.tifftea {
+    margin-left: 275px;
 }
 nav {
     display: flex;
@@ -19,6 +24,7 @@ nav {
     font-weight: 900;
     padding: 20px;    
     align-items: center;
+    
       
     
     }    
@@ -36,7 +42,7 @@ nav {
         justify-content: flex-end;
         align-items: center;
         flex: 1 1 150px;
-        margin-right: 150px;
+        margin-right: 200px;
         gap: 75px;
         
     }
@@ -80,7 +86,8 @@ nav {
          width: 100%;
          display: flex;
          flex-wrap: wrap;
-         justify-content: space-around;        
+         justify-content: center;
+         gap: 50px;        
          align-items: flex-start;
          color: #1F2937;
          
@@ -90,10 +97,12 @@ nav {
     
      .intro { 
          font-size: 32px;
+         margin-left: 200px;
 
      }
      .intromain {
          font-size: 48px;
+         margin-left: 200px;
      }
      .photo {
          border: 5px solid #3882F6;
@@ -119,10 +128,10 @@ nav {
      .paragraphs {
          display: flex;
          width: 100%;
-         gap: 8px;
-         justify-content: space-around;
+         gap: 20px;
+         justify-content: center;
          align-items: center;
-         margin: 16px 0;
+         
      }
 
      p {
@@ -137,7 +146,8 @@ nav {
               }
 
      .tea {
-         max-width: 264px;
+         width: 254px;
+         height: 254px;
      }
      .whitetea {
          padding-bottom: 20px;

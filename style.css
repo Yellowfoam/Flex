@@ -18,7 +18,7 @@ body {
     margin-left: 275px;
 }
 .links li:hover {
-    color: rgb(2, 141, 2);
+    color: #8D9B6A;
     cursor: pointer;
     
 
@@ -112,15 +112,15 @@ nav {
          margin-left: 200px;
      }
      .photo {
-         border: 5px solid peru;
+         border: 5px solid #8F5B34;
          border-radius: 30px;
      }
 
      button {
-         background-color: peru;
+         background-color:#DAB692;
          font-weight: 900;
          font-size: 16px;
-         color: white;
+         color: black;
          border: 2px solid white;
          width: 120px;
          height: 40px;
@@ -173,13 +173,13 @@ nav {
          display: flex;
          justify-content: center;
          align-items: center;
-         background-color: peru;
+         background-color: #DAB692;
          height: 220px
                   
      }
 
      .review {
-         background-color: peru;
+         background-color: #DAB692;
          color: #1F2937;
          font-size: 36px;
          max-height: 300px;
@@ -221,7 +221,7 @@ nav {
      #container_four {
          display: flex;
          flex-direction: wrap;
-         background-color: black;
+         background-color: #8F5B34;
          width: 38vw;
          height: 80px;
          justify-content: center;

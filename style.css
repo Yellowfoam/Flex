@@ -248,9 +248,11 @@ nav {
      .action {
          display: flex;
          flex-direction: column;
-         color: white;
+         color: black;
          align-items: flex-start;
          max-height: 80px;
+         font-weight: 700;
+         font-size: 20px;
          
         }
 
